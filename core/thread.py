@@ -186,7 +186,7 @@ class Thread:
 
 
 
-        event = 'Thread Closed as Scheduled' if scheduled else 'Thread Closed'
+        event = 'Thread Closed as Scheduled' if scheduled else 'Session Closed'
 
         # em.set_author(name=f'Event: {event}', url=log_url)
 
@@ -210,7 +210,7 @@ class Thread:
 
 
 
-        em = discord.Embed(title='Thread Closed')
+        em = discord.Embed(title='Session Closed')
 
         em.description = message or f'**{closer}** has closed this modmail thread.'
 
