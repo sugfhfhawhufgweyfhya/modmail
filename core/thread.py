@@ -659,7 +659,7 @@ class ThreadManager:
 
             description=self.bot.config.get('thread_creation_response', 'We are currently assisting another user, so we have added you to the queue. We will respond as soon as someone is available!'),
 
-            color=discord.Color.0xb3ffff()
+            color=discord.Color.teal()
 
         )
 
