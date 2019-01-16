@@ -214,7 +214,7 @@ class Thread:
 
         em.description = message or f'{closer} has closed this modmail thread.'
 
-        em.color = discord.Color.black()
+        em.color = discord.Color.teal()
 
 
 
@@ -623,7 +623,6 @@ class ThreadManager:
 
 
         if user_id is not None:
-
             if user_id in self.cache:
 
                 return self.cache[user_id]
@@ -660,7 +659,7 @@ class ThreadManager:
 
             description=self.bot.config.get('thread_creation_response', 'We are currently assisting another user, so we have added you to the queue. We will respond as soon as someone is available!'),
 
-            color=discord.Color.teal()
+            color=discord.Color.teal(0xb3ffff)
 
         )
 
