@@ -214,7 +214,7 @@ class Thread:
 
         em.description = message or f'{closer} has closed this modmail thread.'
 
-        em.color = discord.Color.lightteal()
+        em.color = discord.Color.black()
 
 
 
