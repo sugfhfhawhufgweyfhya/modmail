@@ -212,7 +212,7 @@ class Thread:
 
         em = discord.Embed(title='Thread Closed')
 
-        em.description = message or f'{closer.mention} has closed this modmail thread.'
+        em.description = message or f'{closer} has closed this modmail thread.'
 
         em.color = discord.Color.teal()
 
