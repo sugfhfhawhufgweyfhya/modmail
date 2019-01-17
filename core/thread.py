@@ -210,11 +210,11 @@ class Thread:
 
 
 
-        em = discord.Embed(title='Session Closed')
+        em = discord.Embed(title='Thank You!')
 
-        em.description = message or f'**{closer}** has closed this modmail thread.'
+        em.description = message or f'Thank You! We hope **{closer}** helped you to your inquires if they did not feel free to DM us again!'
 
-        em.color = discord.Color.lightteal()
+        em.color = discord.Color.teal()
 
 
 
@@ -424,7 +424,7 @@ class Thread:
 
         if from_mod:
 
-            em.color = discord.Color.teal()
+            em.color = discord.Color.black()
 
             em.set_footer(text=f'Moderator')
 
