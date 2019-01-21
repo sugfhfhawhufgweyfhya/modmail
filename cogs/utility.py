@@ -188,7 +188,7 @@ class Utility:
             em.add_field(name='Latency', value=f'{self.bot.latency*1000:.2f} ms')
 
         em.add_field(name='Version', value=f'[`{self.bot.version}`](https://modmail.tk/changelog)')
-        em.add_field(name='Author', value='[`JordanStrunk`](https://github.com/aboveplanet302)')
+        em.add_field(name='Author', value='[`JordanStrunk`](https://github.com/AbovePlanet302)')
 
         footer = f'Bot ID: {self.bot.user.id}'
 
@@ -198,7 +198,7 @@ class Utility:
             else:
                 footer = 'You are up to date with the latest version.'
 
-        em.add_field(name='Github', value='https://github.com/aboveplane302/modmail', inline=False)
+        em.add_field(name='Github', value='https://github.com/AbovePlanet302/modmail', inline=False)
 
         em.set_footer(text=footer)
 
