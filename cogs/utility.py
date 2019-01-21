@@ -171,7 +171,7 @@ class Utility:
         em.set_author(name='Mod Mail - About', icon_url=self.bot.user.avatar_url)
         em.set_thumbnail(url=self.bot.user.avatar_url)
 
-        em.description = 'This is an open source discord bot that serves'\
+        em.description = 'This is an discord bot that serves'\
                         ' as a means for members to easily communicate with'\
                         ' server leadership in an organised manner.'
 
@@ -188,7 +188,7 @@ class Utility:
             em.add_field(name='Latency', value=f'{self.bot.latency*1000:.2f} ms')
 
         em.add_field(name='Version', value=f'[`{self.bot.version}`](https://modmail.tk/changelog)')
-        em.add_field(name='Author', value='[`kyb3r`](https://github.com/kyb3r)')
+        em.add_field(name='Author', value='[`JordanStrunk`](https://github.com/aboveplanet302)')
 
         footer = f'Bot ID: {self.bot.user.id}'
 
@@ -198,7 +198,7 @@ class Utility:
             else:
                 footer = 'You are up to date with the latest version.'
 
-        em.add_field(name='Github', value='https://github.com/kyb3r/modmail', inline=False)
+        em.add_field(name='Github', value='https://github.com/aboveplane302/modmail', inline=False)
 
         em.set_footer(text=footer)
 
