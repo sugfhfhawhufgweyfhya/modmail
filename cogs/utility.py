@@ -163,7 +163,7 @@ class Utility:
         p = PaginatorSession(ctx, *changelog.embeds)
         await p.run()
 
-    @commands.command(aliases=['bot', 'info'])
+    @commands.command(aliases=['bot', ''])
     @trigger_typing
     async def about(self, ctx):
         """Shows information about the bot."""
